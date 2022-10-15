@@ -1,0 +1,27 @@
+.container_grid{
+    max-width: 1300px;
+    
+    margin:100px auto;
+    padding: 10px;
+    display: grid;
+    gap:10px;
+    align-items:start;
+    justify-content:center;    
+    grid-template-columns: repeat(auto-fill,minmax(200px,300px));
+
+}
+.item{
+    background-color: #70afb1;;
+    color: aliceblue;
+    font-size: 20px;
+    padding:20px;
+    border: skyblue 1px solid;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 3px#d8eff0;
+}
+/* @media(max-width:500px){
+    .container_grid{
+        grid-template-columns:  300px;
+    }
+} */

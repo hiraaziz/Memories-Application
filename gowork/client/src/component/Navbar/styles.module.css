@@ -1,0 +1,62 @@
+.logo{
+    width: 100px;
+    height: 50px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #9dd6d8;
+    box-shadow:2px 2px 3px rgb(206, 206, 206);
+    border-bottom: 1px solid #ffffff;
+}
+nav{
+    list-style: none;
+    cursor: pointer;
+}
+nav li{
+    
+    color: rgb(253, 253, 253);
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
+
+
+.link{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
+.link:hover{
+    color: rgb(0, 0, 0);
+}
+
+span{
+    content: '';
+    display: inline-block;
+    
+    height: 2px;
+    width: 50%;
+}
+span:hover{
+    transition: all 1s ease 0s;
+    background-color: aqua;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+button{
+    transition: all 0.3s ease 0s;
+    background-color: rgb(15, 75, 90);
+    color: aliceblue;
+    border: rgb(15, 75, 90) solid;
+    border-radius: 30px;
+    height: 30px;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+button:hover{
+    color: rgb(217, 249, 255);
+    
+}

@@ -1,0 +1,2 @@
+npm init -y
+npm install nodemon body-parser express cors mongoose
